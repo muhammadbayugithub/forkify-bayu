@@ -1,0 +1,21 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "Recipe app",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html --dist-dir ./dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "core-js": "^3.47.0",
+        "fracty": "^1.0.12",
+        "parcel": "^2.16.3",
+        "regenerator-runtime": "^0.14.1",
+        "sass": "^1.97.1"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.16.3"
+    }
+}
